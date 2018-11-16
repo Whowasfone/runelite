@@ -54,7 +54,7 @@ public abstract class RSSceneMixin implements RSScene
 	private static final int PITCH_LOWER_LIMIT = 128;
 	private static final int PITCH_UPPER_LIMIT = 383;
 
-	private static final int MAX_TARGET_DISTANCE = 45;
+	private static final int MAX_TARGET_DISTANCE = 90;
 
 	@Shadow("clientInstance")
 	static RSClient client;
